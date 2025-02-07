@@ -19,8 +19,13 @@ export default function Lesson1() {
           <h2 className="text-3xl font-semibold text-yellow-300 mb-4">The Power of Prayer & Spiritual Refinement</h2>
           <p className="text-gray-300 leading-loose">
             <strong>Jesus Knew Satan’s Plans</strong>
-            <br /><strong>Job 1:6-12</strong> - "Now there was a day when the sons of God came to present themselves before the Lord, and Satan also came among them."
+            <br /><strong>Luke 22:31-32</strong> - "Simon, Simon, behold, Satan demanded to have you, that he might sift you like wheat."
             <br /> Satan wanted to shake Peter’s faith, just as he does with us. God remains in control, even in spiritual battles.
+          </p>
+          <p className="text-gray-300 leading-loose mt-4">
+            <strong>Parallel: Satan’s Request to Test Job</strong>
+            <br /><strong>Job 1:6-12</strong> - "Now there was a day when the sons of God came to present themselves before the Lord, and Satan also came among them."
+            <br /> Just as Satan sought permission to test Job, he sought to test Peter. God allowed these trials, not to destroy them, but to refine them.
           </p>
           <p className="text-gray-300 leading-loose mt-4">
             <strong>Jesus Interceded for Peter</strong>
