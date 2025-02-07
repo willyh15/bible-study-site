@@ -1,5 +1,4 @@
 // src/app/lesson-1/page.tsx
-import Image from "next/image";
 import Link from "next/link";
 import RefiningAnimation from "@/components/RefiningAnimation";
 
