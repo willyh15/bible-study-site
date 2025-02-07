@@ -9,7 +9,7 @@ export default function Lesson1() {
       <div className="max-w-4xl mx-auto text-center flex flex-col items-center justify-center">
         <h1 className="text-5xl font-bold mb-8 text-yellow-400">Lesson 1: Jesus&apos;s Prayer for Peter &amp; The Refining Fire</h1>
         <p className="text-lg text-gray-300 leading-relaxed max-w-3xl">
-          <strong>Luke 22:31-32</strong> - &ldquo;Simon, Simon, behold, Satan demanded to have you, that he might sift you like wheat, but I have prayed for you that your faith may not fail. And when you have turned again, strengthen your brothers.&rdquo;
+          <strong>Luke 22:31-32</strong> - "Simon, Simon, behold, Satan demanded to have you, that he might sift you like wheat, but I have prayed for you that your faith may not fail. And when you have turned again, strengthen your brothers."
           <br />
           This illustrates the power of intercessory prayer and faith refinement.
         </p>
@@ -19,22 +19,22 @@ export default function Lesson1() {
           <h2 className="text-3xl font-semibold text-yellow-300 mb-4">The Power of Prayer &amp; Spiritual Refinement</h2>
           <p className="text-gray-300 leading-loose">
             <strong>Jesus Knew Satan’s Plans</strong>
-            <br /><strong>Luke 22:31-32</strong> - &ldquo;Simon, Simon, behold, Satan demanded to have you, that he might sift you like wheat.&rdquo;
+            <br /><strong>Luke 22:31-32</strong> - "Simon, Simon, behold, Satan demanded to have you, that he might sift you like wheat."
             <br /> Satan wanted to shake Peter’s faith, just as he does with us. God remains in control, even in spiritual battles.
           </p>
           <p className="text-gray-300 leading-loose mt-4">
             <strong>Parallel: Satan’s Request to Test Job</strong>
-            <br /><strong>Job 1:6-12</strong> - &ldquo;Now there was a day when the sons of God came to present themselves before the Lord, and Satan also came among them.&rdquo;
+            <br /><strong>Job 1:6-12</strong> - "Now there was a day when the sons of God came to present themselves before the Lord, and Satan also came among them."
             <br /> Just as Satan sought permission to test Job, he sought to test Peter. God allowed these trials, not to destroy them, but to refine them.
           </p>
           <p className="text-gray-300 leading-loose mt-4">
             <strong>Jesus Interceded for Peter</strong>
-            <br /><strong>Romans 8:34</strong> - &ldquo;Who is to condemn? Christ Jesus is the one who died—more than that, who was raised—who is at the right hand of God, who indeed is interceding for us.&rdquo;
+            <br /><strong>Romans 8:34</strong> - "Who is to condemn? Christ Jesus is the one who died—more than that, who was raised—who is at the right hand of God, who indeed is interceding for us."
             <br /> Jesus didn&apos;t just warn Peter—He prayed for him. Do we intercede for others like Jesus did?
           </p>
           <p className="text-gray-300 leading-loose mt-4">
             <strong>Peter&apos;s Restoration</strong>
-            <br /><strong>John 21:15-17</strong> - &ldquo;When they had finished breakfast, Jesus said to Simon Peter, 'Simon, son of John, do you love me more than these?' He said to him, 'Yes, Lord; you know that I love you.' He said to him, 'Feed my lambs.'&rdquo;
+            <br /><strong>John 21:15-17</strong> - "When they had finished breakfast, Jesus said to Simon Peter, &quot;Simon, son of John, do you love me more than these?&quot; He said to him, &quot;Yes, Lord; you know that I love you.&quot; He said to him, &quot;Feed my lambs.&quot;"
             <br /> After failure, Jesus restored Peter to lead the early church. Failure isn’t final—God uses trials to refine us.
           </p>
         </div>
@@ -54,16 +54,16 @@ export default function Lesson1() {
         <div className="mt-12 p-8 bg-gray-800 rounded-lg shadow-lg max-w-3xl w-full">
           <h2 className="text-3xl font-semibold text-yellow-300 mb-4">Refining Fire: A Biblical Perspective</h2>
           <p className="text-gray-300 leading-loose">
-            <strong>1 Peter 1:6-7</strong> - &ldquo;In this you rejoice, though now for a little while, if necessary, you have been grieved by various trials, so that the tested genuineness of your faith—more precious than gold that perishes though it is tested by fire—may be found to result in praise and glory and honor at the revelation of Jesus Christ.&rdquo;
+            <strong>1 Peter 1:6-7</strong> - "In this you rejoice, though now for a little while, if necessary, you have been grieved by various trials, so that the tested genuineness of your faith—more precious than gold that perishes though it is tested by fire—may be found to result in praise and glory and honor at the revelation of Jesus Christ."
           </p>
           <p className="text-gray-300 leading-loose mt-4">
-            <strong>Job 23:10</strong> - &ldquo;But he knows the way that I take; when he has tried me, I shall come out as gold.&rdquo;
+            <strong>Job 23:10</strong> - "But he knows the way that I take; when he has tried me, I shall come out as gold."
           </p>
           <p className="text-gray-300 leading-loose mt-4">
-            <strong>Malachi 3:3</strong> - &ldquo;He will sit as a refiner and purifier of silver, and he will purify the sons of Levi and refine them like gold and silver, and they will bring offerings in righteousness to the Lord.&rdquo;
+            <strong>Malachi 3:3</strong> - "He will sit as a refiner and purifier of silver, and he will purify the sons of Levi and refine them like gold and silver, and they will bring offerings in righteousness to the Lord."
           </p>
           <p className="text-gray-300 leading-loose mt-4">
-            <strong>Romans 8:29</strong> - &ldquo;For those whom he foreknew he also predestined to be conformed to the image of his Son, in order that he might be the firstborn among many brothers.&rdquo;
+            <strong>Romans 8:29</strong> - "For those whom he foreknew he also predestined to be conformed to the image of his Son, in order that he might be the firstborn among many brothers."
           </p>
         </div>
       </div>
