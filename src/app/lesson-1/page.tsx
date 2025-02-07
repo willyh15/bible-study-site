@@ -7,7 +7,7 @@ export default function Lesson1() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-900 text-white p-10">
       <div className="max-w-4xl mx-auto text-center flex flex-col items-center justify-center">
-        <h1 className="text-5xl font-bold mb-8 text-yellow-400">Lesson 1: Jesus&apos; Prayer for Peter & The Refining Fire</h1>
+        <h1 className="text-5xl font-bold mb-8 text-yellow-400">Lesson 1: Jesus&apos;s Prayer for Peter & The Refining Fire</h1>
         <p className="text-lg text-gray-300 leading-relaxed max-w-3xl">
           In <strong>Luke 22:31-32</strong>, Jesus prays for Peter, knowing he will be tested. 
           This illustrates the power of intercessory prayer and faith refinement.
@@ -23,11 +23,11 @@ export default function Lesson1() {
           </p>
           <p className="text-gray-300 leading-loose mt-4">
             <strong>Jesus Interceded for Peter</strong> (Romans 8:34)
-            <br />Jesus didn't just warn Peter—He prayed for him.
+            <br />Jesus didn&apos;t just warn Peter—He prayed for him.
             <br />Do we intercede for others like Jesus did?
           </p>
           <p className="text-gray-300 leading-loose mt-4">
-            <strong>Peter’s Restoration</strong> (John 21:15-17)
+            <strong>Peter&apos;s Restoration</strong> (John 21:15-17)
             <br />After failure, Jesus restored Peter to lead the early church.
             <br />Failure isn’t final—God uses trials to refine us.
           </p>
@@ -56,6 +56,9 @@ export default function Lesson1() {
           <p className="text-gray-300 leading-loose mt-4">
             <strong>Malachi 3:3</strong> - God refines His people like a blacksmith purifies gold and silver.
           </p>
+          <p className="text-gray-300 leading-loose mt-4">
+            <strong>Romans 8:29</strong> - We are predestined to be conformed to the image of Christ through trials.
+          </p>
         </div>
       </div>
 
@@ -63,10 +66,11 @@ export default function Lesson1() {
       <div className="mt-12 p-8 bg-gray-800 rounded-lg shadow-lg max-w-3xl w-full">
         <h2 className="text-3xl font-semibold text-yellow-300 mb-4">Reflection Questions</h2>
         <ul className="list-disc pl-8 text-gray-300 leading-loose text-left">
-          <li>How does Jesus&apos; intercession shape our understanding of prayer?</li>
+          <li>How does Jesus&apos;s intercession shape our understanding of prayer?</li>
           <li>What impurities has God revealed in your faith through prayer?</li>
           <li>How can we make intercessory prayer a habit in our daily lives?</li>
           <li>Have you experienced a time where trials refined and strengthened your faith?</li>
+          <li>How does the process of gold refinement reflect our spiritual journey?</li>
         </ul>
       </div>
 
