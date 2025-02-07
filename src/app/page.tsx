@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="max-w-3xl mx-auto p-6 text-center">
       {/* Header */}
-      <h1 className="text-4xl font-bold mb-4">Welcome to the Bible Study Hub</h1>
+      <h1 className="text-4xl font-bold mb-4">Welcome to the Bible Study Hub - A Place for Faith Exploration</h1>
       <p className="text-lg mb-6">
         Dive deep into Scripture with engaging lessons on prayer, faith, and restoration.
       </p>

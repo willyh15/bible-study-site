@@ -1,11 +1,12 @@
 // src/app/lesson-1/page.tsx
-import Link from "next/link";
+
+
 import RefiningAnimation from "@/components/RefiningAnimation";
 
 export default function Lesson1() {
   return (
     <div className="max-w-3xl mx-auto p-6">
-      <h1 className="text-3xl font-bold text-center mb-6">Lesson 1: Jesus' Prayer for Peter & The Refining Fire</h1>
+      <h1 className="text-3xl font-bold text-center mb-6">Lesson 1: Jesus&apos; Prayer for Peter & The Refining Fire</h1>
 
       <p className="text-lg">
         In <strong>Luke 22:31-32</strong>, Jesus prays for Peter, knowing he will be tested. 
