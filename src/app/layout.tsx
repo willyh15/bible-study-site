@@ -1,4 +1,5 @@
-import "../styles/globals.css"; // Corrected import
+// src/app/layout.tsx
+import "../styles/globals.css";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -6,7 +7,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <title>Bible Study Hub</title>
       </head>
-      <body className="min-h-screen bg-gray-50 text-gray-900 flex flex-col items-center p-4">
+      <body className="min-h-screen bg-black text-white flex flex-col items-center p-4">
         {children}
       </body>
     </html>
