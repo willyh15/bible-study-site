@@ -7,7 +7,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <title>Bible Study Hub</title>
       </head>
-      <body className="min-h-screen bg-gradient-to-b from-black to-gray-900 text-white flex flex-col items-center p-6">
+      <body className="min-h-screen bg-gradient-to-b from-black to-gray-900 text-white flex flex-col items-center justify-center p-6">
         {children}
       </body>
     </html>

@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-gray-900 to-black text-white p-6">
-      <div className="text-center max-w-4xl mx-auto">
+      <div className="text-center max-w-4xl mx-auto flex flex-col items-center justify-center">
         <h1 className="text-6xl font-extrabold mb-6 tracking-wide">📖 Bible Study Hub</h1>
-        <p className="text-lg mb-8 text-gray-300 leading-relaxed">
+        <p className="text-lg mb-8 text-gray-300 leading-relaxed max-w-2xl">
           Dive deep into Scripture with engaging lessons on prayer, faith, and restoration.
         </p>
         
