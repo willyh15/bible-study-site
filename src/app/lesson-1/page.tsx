@@ -7,7 +7,7 @@ export default function Lesson1() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-900 text-white p-10">
       <div className="max-w-4xl mx-auto text-center flex flex-col items-center justify-center">
-        <h1 className="text-5xl font-bold mb-8 text-yellow-400">Lesson 1: Jesus&apos;s Prayer for Peter & The Refining Fire</h1>
+        <h1 className="text-5xl font-bold mb-8 text-yellow-400">Lesson 1: Jesus's Prayer for Peter & The Refining Fire</h1>
         <p className="text-lg text-gray-300 leading-relaxed max-w-3xl">
           <strong>Luke 22:31-32</strong> - "Simon, Simon, behold, Satan demanded to have you, that he might sift you like wheat, but I have prayed for you that your faith may not fail. And when you have turned again, strengthen your brothers."
           <br />
@@ -30,10 +30,10 @@ export default function Lesson1() {
           <p className="text-gray-300 leading-loose mt-4">
             <strong>Jesus Interceded for Peter</strong>
             <br /><strong>Romans 8:34</strong> - "Who is to condemn? Christ Jesus is the one who died—more than that, who was raised—who is at the right hand of God, who indeed is interceding for us."
-            <br /> Jesus didn&apos;t just warn Peter—He prayed for him. Do we intercede for others like Jesus did?
+            <br /> Jesus didn't just warn Peter—He prayed for him. Do we intercede for others like Jesus did?
           </p>
           <p className="text-gray-300 leading-loose mt-4">
-            <strong>Peter&apos;s Restoration</strong>
+            <strong>Peter's Restoration</strong>
             <br /><strong>John 21:15-17</strong> - "When they had finished breakfast, Jesus said to Simon Peter, 'Simon, son of John, do you love me more than these?' He said to him, 'Yes, Lord; you know that I love you.' He said to him, 'Feed my lambs.'"
             <br /> After failure, Jesus restored Peter to lead the early church. Failure isn’t final—God uses trials to refine us.
           </p>
@@ -72,7 +72,7 @@ export default function Lesson1() {
       <div className="mt-12 p-8 bg-gray-800 rounded-lg shadow-lg max-w-3xl w-full">
         <h2 className="text-3xl font-semibold text-yellow-300 mb-4">Reflection Questions</h2>
         <ul className="list-disc pl-8 text-gray-300 leading-loose text-left">
-          <li>How does Jesus&apos;s intercession shape our understanding of prayer?</li>
+          <li>How does Jesus's intercession shape our understanding of prayer?</li>
           <li>What impurities has God revealed in your faith through prayer?</li>
           <li>How can we make intercessory prayer a habit in our daily lives?</li>
           <li>Have you experienced a time where trials refined and strengthened your faith?</li>
