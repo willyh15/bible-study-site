@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import refiningGif from "@/public/gold-refining.gif"; // Place this in /public folder
 import RefiningAnimation from "@/components/RefiningAnimation";
 
 export default function Lesson1() {
@@ -13,25 +12,17 @@ export default function Lesson1() {
         This illustrates the power of intercessory prayer and faith refinement.
       </p>
 
-      {/* Refining Gold GIF */}
+
+      {/* Embedded Video (Locally Stored) */}
       <div className="flex justify-center my-6">
-        <Image src={refiningGif} alt="Gold Refining Process" width={500} height={300} />
+        <video width="600" controls>
+          <source src="/videos/gold-refining.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
 
+      {/* Refining Animation */}
       <RefiningAnimation />
-
-      {/* Embedded YouTube Video */}
-      <div className="flex justify-center">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/YOUR_VIDEO_ID" // Replace with real video ID
-          title="Gold Refining Process"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </div>
 
       {/* Discussion Section */}
       <div className="mt-8">
