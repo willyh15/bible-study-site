@@ -1,3 +1,4 @@
+// src/app/lesson-1/page.tsx
 import Image from "next/image";
 import Link from "next/link";
 import RefiningAnimation from "@/components/RefiningAnimation";
@@ -11,7 +12,6 @@ export default function Lesson1() {
         In <strong>Luke 22:31-32</strong>, Jesus prays for Peter, knowing he will be tested. 
         This illustrates the power of intercessory prayer and faith refinement.
       </p>
-
 
       {/* Embedded Video (Locally Stored) */}
       <div className="flex justify-center my-6">
@@ -36,8 +36,8 @@ export default function Lesson1() {
 
       {/* Navigation Links */}
       <div className="mt-6 text-center">
-        <Link href="/">
-          <a className="text-blue-500 hover:underline">← Back to Home</a>
+        <Link href="/" className="text-blue-500 hover:underline">
+          ← Back to Home
         </Link>
       </div>
     </div>

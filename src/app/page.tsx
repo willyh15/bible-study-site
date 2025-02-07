@@ -1,3 +1,4 @@
+// src/app/page.tsx
 import Link from "next/link";
 
 export default function Home() {
@@ -11,14 +12,12 @@ export default function Home() {
 
       {/* Navigation Links */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-      <Link
-  href="/lesson-1"
-  className="block bg-blue-600 text-white p-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition"
->
-  📖 Lesson 1: Jesus' Prayer for Peter
-</Link>
-
-        {/* Add more lessons here */}
+        <Link
+          href="/lesson-1"
+          className="block bg-blue-600 text-white p-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition"
+        >
+          📖 Lesson 1: Jesus' Prayer for Peter
+        </Link>
       </div>
 
       {/* Encouragement */}
