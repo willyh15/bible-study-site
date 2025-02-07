@@ -39,7 +39,7 @@ export default function Lesson1() {
 
         {/* Embedded Video (Locally Stored) */}
         <div className="flex justify-center my-8 w-full">
-          <video className="rounded-lg shadow-lg" width="700" controls>
+          <video className="rounded-lg shadow-lg" width="700" controls muted>
             <source src="/videos/gold-refining.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
