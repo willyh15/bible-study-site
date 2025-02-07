@@ -16,13 +16,13 @@ export default function Home() {
           href="/lesson-1"
           className="block bg-blue-600 text-white p-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition"
         >
-          📖 Lesson 1: Jesus' Prayer for Peter
+          📖 Lesson 1: Jesus&apos; Prayer for Peter
         </Link>
       </div>
 
       {/* Encouragement */}
       <div className="mt-10 text-gray-700">
-        <p>“The prayer of a righteous person is powerful and effective.” – James 5:16</p>
+        <p>&ldquo;The prayer of a righteous person is powerful and effective.&rdquo; – James 5:16</p>
       </div>
     </div>
   );
