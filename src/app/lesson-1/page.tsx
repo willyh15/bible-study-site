@@ -1,4 +1,4 @@
-"use client";  // Add this line at the top
+"use client";  // Ensures this file is treated as a client component
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
@@ -61,7 +61,7 @@ export default function Lesson1() {
       <motion.section 
         className={`snap-item flex flex-col items-center justify-center bg-gray-800 text-white p-10 ${isBlurred[1] ? "blurred" : ""}`}
         initial={{ opacity: 0, y: 50 }}
-        animate={{ opacity: 1, y: 0 }}
+        animate={{ opacity: isBlurred[1] ? 0.3 : 1, y: isBlurred[1] ? 50 : 0 }}
         transition={{ duration: 0.6 }}
       >
         <div className="max-w-3xl text-center">
@@ -78,17 +78,19 @@ export default function Lesson1() {
       <motion.section 
         className={`snap-item flex flex-col items-center justify-center bg-gray-900 text-white p-10 ${isBlurred[2] ? "blurred" : ""}`}
         initial={{ opacity: 0, y: 50 }}
-        animate={{ opacity: 1, y: 0 }}
+        animate={{ opacity: isBlurred[2] ? 0.3 : 1, y: isBlurred[2] ? 50 : 0 }}
         transition={{ duration: 0.6 }}
       >
         <h2 className="text-3xl font-semibold text-yellow-300 mb-4">Gold Refining &amp; Spiritual Growth</h2>
         
-        {/* Video with Preview Image */}
+        {/* Video with AutoPlay, Preload, and Preview Image */}
         <video
           className="rounded-lg shadow-lg w-full max-w-2xl"
           controls
           muted
+          autoPlay
           playsInline
+          loop
           preload="auto"
           poster="/images/gold-preview.jpg"
         >
@@ -104,7 +106,7 @@ export default function Lesson1() {
       <motion.section 
         className={`snap-item flex flex-col items-center justify-center bg-gray-800 text-white p-10 ${isBlurred[3] ? "blurred" : ""}`}
         initial={{ opacity: 0, y: 50 }}
-        animate={{ opacity: 1, y: 0 }}
+        animate={{ opacity: isBlurred[3] ? 0.3 : 1, y: isBlurred[3] ? 50 : 0 }}
         transition={{ duration: 0.6 }}
       >
         <div className="max-w-3xl text-center">
