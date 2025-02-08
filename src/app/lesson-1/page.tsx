@@ -1,3 +1,5 @@
+"use client";  // Add this line at the top
+
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import RefiningAnimation from "@/components/RefiningAnimation";
