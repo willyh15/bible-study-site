@@ -1,42 +1,84 @@
 import Link from "next/link";
+import { useState, useEffect } from "react";
 import RefiningAnimation from "@/components/RefiningAnimation";
+import { motion } from "framer-motion";
 
 export default function Lesson1() {
+  const [currentSection, setCurrentSection] = useState(0);
+  const [isBlurred, setIsBlurred] = useState([true, true, true, true]);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = document.querySelectorAll(".snap-item");
+      let index = 0;
+      sections.forEach((section, i) => {
+        const rect = section.getBoundingClientRect();
+        if (rect.top >= 0 && rect.top < window.innerHeight / 2) {
+          index = i;
+        }
+      });
+      setCurrentSection(index);
+
+      // Unlock next sections as they scroll into view
+      setIsBlurred((prev) => prev.map((_, i) => i <= index));
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <div className="snap-container">
+      {/* Pagination Dots */}
+      <div className="pagination-dots">
+        {[...Array(5)].map((_, i) => (
+          <div key={i} className={`dot ${currentSection === i ? "active" : ""}`} />
+        ))}
+      </div>
+
       {/* Section 1: Lesson Introduction */}
-      <section className="snap-item flex flex-col items-center justify-center bg-gray-900 text-white p-10">
+      <motion.section 
+        className="snap-item flex flex-col items-center justify-center bg-gray-900 text-white p-10"
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+      >
         <div className="max-w-4xl mx-auto text-center flex flex-col items-center justify-center">
           <h1 className="text-5xl font-bold mb-8 text-yellow-400">
             Lesson 1: Jesus&apos;s Prayer for Peter &amp; The Refining Fire
           </h1>
           <p className="text-lg text-gray-300 leading-relaxed max-w-3xl">
-            <strong>Luke 22:31-32</strong> - &quot;Simon, Simon, behold, Satan demanded to have you, that he might sift you like wheat, but I have prayed for you that your faith may not fail. And when you have turned again, strengthen your brothers.&quot;
+            <strong>Luke 22:31-32</strong> - "Simon, Simon, behold, Satan demanded to have you, that he might sift you like wheat, but I have prayed for you that your faith may not fail. And when you have turned again, strengthen your brothers."
             <br />
             This illustrates the power of intercessory prayer and faith refinement.
           </p>
         </div>
-      </section>
+      </motion.section>
 
       {/* Section 2: Deep Dive into Jesus' Prayer */}
-      <section className="snap-item flex flex-col items-center justify-center bg-gray-800 text-white p-10">
+      <motion.section 
+        className={`snap-item flex flex-col items-center justify-center bg-gray-800 text-white p-10 ${isBlurred[1] ? "blurred" : ""}`}
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+      >
         <div className="max-w-3xl text-center">
           <h2 className="text-3xl font-semibold text-yellow-300 mb-4">The Power of Prayer &amp; Spiritual Refinement</h2>
           <p className="text-gray-300 leading-loose">
             <strong>Jesus Knew Satan’s Plans</strong>
-            <br /><strong>Luke 22:31-32</strong> - &quot;Simon, Simon, behold, Satan demanded to have you, that he might sift you like wheat.&quot;
+            <br /><strong>Luke 22:31-32</strong> - "Simon, Simon, behold, Satan demanded to have you, that he might sift you like wheat."
             <br /> Satan wanted to shake Peter’s faith, just as he does with us. God remains in control, even in spiritual battles.
           </p>
-          <p className="text-gray-300 leading-loose mt-4">
-            <strong>Parallel: Satan’s Request to Test Job</strong>
-            <br /><strong>Job 1:6-12</strong> - &quot;Now there was a day when the sons of God came to present themselves before the Lord, and Satan also came among them.&quot;
-            <br /> Just as Satan sought permission to test Job, he sought to test Peter. God allowed these trials, not to destroy them, but to refine them.
-          </p>
         </div>
-      </section>
+      </motion.section>
 
       {/* Section 3: Video & Refining Fire */}
-      <section className="snap-item flex flex-col items-center justify-center bg-gray-900 text-white p-10">
+      <motion.section 
+        className={`snap-item flex flex-col items-center justify-center bg-gray-900 text-white p-10 ${isBlurred[2] ? "blurred" : ""}`}
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+      >
         <h2 className="text-3xl font-semibold text-yellow-300 mb-4">Gold Refining &amp; Spiritual Growth</h2>
         
         {/* Video with Preview Image */}
@@ -54,26 +96,15 @@ export default function Lesson1() {
         
         {/* Refining Animation */}
         <RefiningAnimation />
-      </section>
+      </motion.section>
 
-      {/* Section 4: Biblical Support for Refinement */}
-      <section className="snap-item flex flex-col items-center justify-center bg-gray-800 text-white p-10">
-        <div className="max-w-3xl text-center">
-          <h2 className="text-3xl font-semibold text-yellow-300 mb-4">Refining Fire: A Biblical Perspective</h2>
-          <p className="text-gray-300 leading-loose">
-            <strong>1 Peter 1:6-7</strong> - &quot;In this you rejoice, though now for a little while, if necessary, you have been grieved by various trials, so that the tested genuineness of your faith—more precious than gold that perishes though it is tested by fire—may be found to result in praise and glory and honor at the revelation of Jesus Christ.&quot;
-          </p>
-          <p className="text-gray-300 leading-loose mt-4">
-            <strong>Job 23:10</strong> - &quot;But he knows the way that I take; when he has tried me, I shall come out as gold.&quot;
-          </p>
-          <p className="text-gray-300 leading-loose mt-4">
-            <strong>Malachi 3:3</strong> - &quot;He will sit as a refiner and purifier of silver, and he will purify the sons of Levi and refine them like gold and silver, and they will bring offerings in righteousness to the Lord.&quot;
-          </p>
-        </div>
-      </section>
-
-      {/* Section 5: Reflection Questions */}
-      <section className="snap-item flex flex-col items-center justify-center bg-gray-900 text-white p-10">
+      {/* Section 4: Reflection Questions */}
+      <motion.section 
+        className={`snap-item flex flex-col items-center justify-center bg-gray-800 text-white p-10 ${isBlurred[3] ? "blurred" : ""}`}
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+      >
         <div className="max-w-3xl text-center">
           <h2 className="text-3xl font-semibold text-yellow-300 mb-4">Reflection Questions</h2>
           <ul className="list-disc pl-8 text-gray-300 leading-loose text-left">
@@ -84,7 +115,7 @@ export default function Lesson1() {
             <li>How does the process of gold refinement reflect our spiritual journey?</li>
           </ul>
         </div>
-      </section>
+      </motion.section>
 
       {/* Navigation Links */}
       <div className="mt-8 text-center">
