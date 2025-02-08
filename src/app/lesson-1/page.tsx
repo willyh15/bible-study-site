@@ -50,7 +50,7 @@ export default function Lesson1() {
             Lesson 1: Jesus&apos;s Prayer for Peter &amp; The Refining Fire
           </h1>
           <p className="text-lg text-gray-300 leading-relaxed max-w-3xl">
-            <strong>Luke 22:31-32</strong> - "Simon, Simon, behold, Satan demanded to have you, that he might sift you like wheat, but I have prayed for you that your faith may not fail. And when you have turned again, strengthen your brothers."
+            <strong>Luke 22:31-32</strong> - &quot;Simon, Simon, behold, Satan demanded to have you, that he might sift you like wheat, but I have prayed for you that your faith may not fail. And when you have turned again, strengthen your brothers.&quot;
             <br />
             This illustrates the power of intercessory prayer and faith refinement.
           </p>
@@ -68,7 +68,7 @@ export default function Lesson1() {
           <h2 className="text-3xl font-semibold text-yellow-300 mb-4">The Power of Prayer &amp; Spiritual Refinement</h2>
           <p className="text-gray-300 leading-loose">
             <strong>Jesus Knew Satan’s Plans</strong>
-            <br /><strong>Luke 22:31-32</strong> - "Simon, Simon, behold, Satan demanded to have you, that he might sift you like wheat."
+            <br /><strong>Luke 22:31-32</strong> - &quot;Simon, Simon, behold, Satan demanded to have you, that he might sift you like wheat.&quot;
             <br /> Satan wanted to shake Peter’s faith, just as he does with us. God remains in control, even in spiritual battles.
           </p>
         </div>
