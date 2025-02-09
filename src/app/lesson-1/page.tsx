@@ -17,21 +17,6 @@ export default function Lesson1() {
             <br />
             Jesus foresaw Peter&apos;s test but <strong>prayed for his faith to endure.</strong>
           </p>
-        </div>
-      </section>
-
-      {/* Section 2: Jesus Predicts Peter’s Denial */}
-      <section className="snap-item flex flex-col items-center justify-center bg-gray-800 text-white p-10">
-        <div className="max-w-3xl text-center">
-          <h2 className="text-3xl font-semibold text-yellow-300 mb-4">Jesus Predicts Peter&apos;s Denial</h2>
-          <p className="text-gray-300 leading-loose">
-            <strong>Luke 22:33-34</strong> - Peter said, “Lord, I am ready to go with you both to prison and to death.”  
-            Jesus replied, “I tell you, Peter, the rooster will not crow this day until you deny three times that you know me.”
-          </p>
-          <p className="text-gray-300 leading-loose mt-4">
-            <strong>Matthew 26:33-35</strong> - Peter declared, “Even if all fall away on account of you, I never will.”  
-            Jesus answered, “Truly I tell you, this very night, before the rooster crows, you will disown me three times.”
-          </p>
 
           {/* Sift Like Wheat Image */}
           <div className="flex justify-center my-6">
@@ -45,7 +30,20 @@ export default function Lesson1() {
           </div>
 
           <p className="text-gray-300 leading-loose mt-4">
-            The process of sifting wheat involves shaking and separating the grain from the chaff. Similarly, Satan desired to test Peter—to shake him and see what remained. But Jesus prayed for his faith to endure.
+            The process of **sifting wheat** involves shaking and separating the grain from the chaff.  
+            Similarly, **Satan desired to test Peter**—to shake him and see what remained.  
+            But Jesus **prayed for his faith to endure.**
+          </p>
+        </div>
+      </section>
+
+      {/* Section 2: Jesus Predicts Peter’s Denial */}
+      <section className="snap-item flex flex-col items-center justify-center bg-gray-800 text-white p-10">
+        <div className="max-w-3xl text-center">
+          <h2 className="text-3xl font-semibold text-yellow-300 mb-4">Jesus Predicts Peter&apos;s Denial</h2>
+          <p className="text-gray-300 leading-loose">
+            <strong>Luke 22:33-34</strong> - Peter said, “Lord, I am ready to go with you both to prison and to death.”  
+            Jesus replied, “I tell you, Peter, the rooster will not crow this day until you deny three times that you know me.”
           </p>
         </div>
       </section>
@@ -109,6 +107,27 @@ export default function Lesson1() {
           Your browser does not support the video tag.
         </video>
         <RefiningAnimation />
+      </section>
+
+      {/* Section 7: Refining Fire in Scripture */}
+      <section className="snap-item flex flex-col items-center justify-center bg-gray-900 text-white p-10">
+        <h2 className="text-3xl font-semibold text-yellow-300 mb-4">Refining Fire in Scripture</h2>
+        <p className="text-gray-300 leading-loose">
+          <strong>1 Peter 1:6-7</strong> - **Trials refine our faith like gold.**  
+        </p>
+        <p className="text-gray-300 leading-loose mt-4">
+          <strong>Job 23:10</strong> - **“When He has tried me, I shall come out as gold.”**  
+        </p>
+      </section>
+
+      {/* Section 8: Reflection Questions */}
+      <section className="snap-item flex flex-col items-center justify-center bg-gray-800 text-white p-10">
+        <h2 className="text-3xl font-semibold text-yellow-300 mb-4">Reflection Questions</h2>
+        <ul className="list-disc pl-8 text-gray-300 leading-loose text-left">
+          <li>How has prayer sustained you in times of testing?</li>
+          <li>How does Jesus’ prayer for Peter compare to how He intercedes for us?</li>
+          <li>How can we be more intentional about praying for others going through trials?</li>
+        </ul>
       </section>
 
       {/* Navigation */}
