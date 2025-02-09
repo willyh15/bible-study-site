@@ -27,6 +27,20 @@ export default function Lesson1() {
             <br /><strong>Luke 22:31-32</strong> - &quot;Simon, Simon, behold, Satan demanded to have you, that he might sift you like wheat.&quot;
             <br /> Satan wanted to shake Peter’s faith, just as he does with us. God remains in control, even in spiritual battles.
           </p>
+
+          {/* Sift Like Wheat Image */}
+          <div className="flex justify-center my-6">
+            <img
+              src="/images/sift-wheat.jpg"
+              alt="Sifting wheat process"
+              className="rounded-lg shadow-lg w-full max-w-md"
+            />
+          </div>
+
+          <p className="text-gray-300 leading-loose mt-4">
+            The process of sifting wheat involves shaking and separating the grain from the chaff. Similarly, Satan desired to test Peter—to shake him and see what remained. But Jesus prayed for his faith to endure.
+          </p>
+
           <p className="text-gray-300 leading-loose mt-4">
             <strong>Parallel: Satan’s Request to Test Job</strong>
             <br /><strong>Job 1:6-12</strong> - &quot;Now there was a day when the sons of God came to present themselves before the Lord, and Satan also came among them.&quot;
