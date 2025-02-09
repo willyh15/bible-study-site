@@ -53,15 +53,25 @@ export default function Lesson1() {
       </section>
 
       {/* Section 3: Jesus Prays for Us */}
-      <section className="snap-item flex flex-col items-center justify-center bg-gray-900 text-white p-10">
-        <h2 className="text-3xl font-semibold text-yellow-300 mb-4">Jesus Prayed for Us</h2>
-        <p className="text-gray-300 leading-loose max-w-3xl text-center">
-          <strong>John 17:9, 20-21</strong> - &quot;I am praying for them. I am not praying for the world but for those whom you have given me, for they are yours... I do not ask for these only, but also for those who will believe in me through their word, that they may all be one, just as you, Father, are in me, and I in you, that they also may be in us, so that the world may believe that you have sent me.&quot;
-          <br />
-          <br />
-          Jesus&apos; prayer was not just for His disciples but for **us today**—for all who would believe in Him. He intercedes for us just as He did for Peter. His love and protection extend to every believer.
-        </p>
-      </section>
+<section className="snap-item flex flex-col items-center justify-center bg-gray-900 text-white p-10">
+  <h2 className="text-3xl font-semibold text-yellow-300 mb-4">Jesus Prayed for Us</h2>
+  <p className="text-gray-300 leading-loose max-w-3xl text-center">
+    <strong>John 17:20-26</strong>  
+    <br /><br />
+    &quot;I do not pray for these alone, but also for those who will believe in Me through their word;  
+    that they all may be one, as You, Father, are in Me, and I in You; that they also may be one in Us,  
+    that the world may believe that You sent Me. And the glory which You gave Me I have given them,  
+    that they may be one just as We are one: I in them, and You in Me; that they may be made perfect  
+    in one, and that the world may know that You have sent Me, and have loved them as You have loved Me.  
+    <br /><br />
+    Father, I desire that they also whom You gave Me may be with Me where I am, that they may behold My  
+    glory which You have given Me; for You loved Me before the foundation of the world.  
+    O righteous Father! The world has not known You, but I have known You; and these have known that You sent Me.  
+    And I have declared to them Your name, and will declare it, that the love with which You loved Me  
+    may be in them, and I in them.&quot;
+  </p>
+</section>
+
 
       {/* Section 4: Video & Refining Fire */}
       <section className="snap-item flex flex-col items-center justify-center bg-gray-800 text-white p-10">
