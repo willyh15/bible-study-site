@@ -28,13 +28,30 @@ body {
   scroll-behavior: smooth;
 }
 
-/* Snap Sections */
+/* Snap Sections - Allow Dynamic Expansion */
 .snap-item {
-  height: 100vh;
+  min-height: 100vh; /* Allow sections to expand if content overflows */
   display: flex;
   align-items: center;
   justify-content: center;
   scroll-snap-align: start;
-  padding: 2rem;
+  padding: 3rem 2rem; /* Added more padding to prevent content from touching edges */
   text-align: center;
+  overflow-y: auto; /* Enables scrolling inside sections if necessary */
+}
+
+/* Fix Text Clipping */
+.snap-item h1, 
+.snap-item h2, 
+.snap-item p, 
+.snap-item ul {
+  max-width: 90%; /* Prevents text from stretching too wide */
+  margin: auto;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .snap-item {
+    padding: 4rem 1.5rem; /* Extra padding for smaller screens */
+  }
 }
