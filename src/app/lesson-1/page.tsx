@@ -84,7 +84,7 @@ export default function Lesson1() {
         <div className="max-w-3xl text-center">
           <h2 className="text-3xl font-semibold text-yellow-300 mb-4">Peter Proclaims Jesus Boldly</h2>
           <p className="text-gray-300 leading-loose">
-            <strong>Acts 2:14-41</strong> - <strong>Pentecost</strong>  
+            <strong>Acts 2:14-41</strong> - <strong>Pentecost: </strong>  
             Peter, once afraid, <strong>now stood before thousands and preached boldly:</strong>  
             <br /><br />
             <strong>“Repent and be baptized, every one of you, in the name of Jesus Christ!”</strong>  
