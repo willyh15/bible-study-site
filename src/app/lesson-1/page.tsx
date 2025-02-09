@@ -49,8 +49,19 @@ export default function Lesson1() {
         </div>
       </section>
 
-      {/* Section 3: Video & Refining Fire */}
+      {/* Section 3: Jesus Prays for Us */}
       <section className="snap-item flex flex-col items-center justify-center bg-gray-900 text-white p-10">
+        <h2 className="text-3xl font-semibold text-yellow-300 mb-4">Jesus Prayed for Us</h2>
+        <p className="text-gray-300 leading-loose max-w-3xl text-center">
+          <strong>John 17:9, 20-21</strong> - &quot;I am praying for them. I am not praying for the world but for those whom you have given me, for they are yours... I do not ask for these only, but also for those who will believe in me through their word, that they may all be one, just as you, Father, are in me, and I in you, that they also may be in us, so that the world may believe that you have sent me.&quot;
+          <br />
+          <br />
+          Jesus' prayer was not just for His disciples but for **us today**—for all who would believe in Him. He intercedes for us just as He did for Peter. His love and protection extend to every believer.
+        </p>
+      </section>
+
+      {/* Section 4: Video & Refining Fire */}
+      <section className="snap-item flex flex-col items-center justify-center bg-gray-800 text-white p-10">
         <h2 className="text-3xl font-semibold text-yellow-300 mb-4">Gold Refining &amp; Spiritual Growth</h2>
         
         {/* Video with Preview Image */}
@@ -70,8 +81,8 @@ export default function Lesson1() {
         <RefiningAnimation />
       </section>
 
-      {/* Section 4: Biblical Support for Refinement */}
-      <section className="snap-item flex flex-col items-center justify-center bg-gray-800 text-white p-10">
+      {/* Section 5: Biblical Support for Refinement */}
+      <section className="snap-item flex flex-col items-center justify-center bg-gray-900 text-white p-10">
         <div className="max-w-3xl text-center">
           <h2 className="text-3xl font-semibold text-yellow-300 mb-4">Refining Fire: A Biblical Perspective</h2>
           <p className="text-gray-300 leading-loose">
@@ -86,8 +97,8 @@ export default function Lesson1() {
         </div>
       </section>
 
-      {/* Section 5: Reflection Questions */}
-      <section className="snap-item flex flex-col items-center justify-center bg-gray-900 text-white p-10">
+      {/* Section 6: Reflection Questions */}
+      <section className="snap-item flex flex-col items-center justify-center bg-gray-800 text-white p-10">
         <div className="max-w-3xl text-center">
           <h2 className="text-3xl font-semibold text-yellow-300 mb-4">Reflection Questions</h2>
           <ul className="list-disc pl-8 text-gray-300 leading-loose text-left">
