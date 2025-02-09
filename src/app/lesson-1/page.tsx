@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";  // Use Next.js Image component
 import RefiningAnimation from "@/components/RefiningAnimation";
 
 export default function Lesson1() {
@@ -28,12 +29,14 @@ export default function Lesson1() {
             <br /> Satan wanted to shake Peter’s faith, just as he does with us. God remains in control, even in spiritual battles.
           </p>
 
-          {/* Sift Like Wheat Image */}
+          {/* Sift Like Wheat Image (Optimized with next/image) */}
           <div className="flex justify-center my-6">
-            <img
+            <Image
               src="/images/sift-wheat.jpg"
               alt="Sifting wheat process"
-              className="rounded-lg shadow-lg w-full max-w-md"
+              width={400}
+              height={300}
+              className="rounded-lg shadow-lg"
             />
           </div>
 
@@ -56,7 +59,7 @@ export default function Lesson1() {
           <strong>John 17:9, 20-21</strong> - &quot;I am praying for them. I am not praying for the world but for those whom you have given me, for they are yours... I do not ask for these only, but also for those who will believe in me through their word, that they may all be one, just as you, Father, are in me, and I in you, that they also may be in us, so that the world may believe that you have sent me.&quot;
           <br />
           <br />
-          Jesus' prayer was not just for His disciples but for **us today**—for all who would believe in Him. He intercedes for us just as He did for Peter. His love and protection extend to every believer.
+          Jesus&apos; prayer was not just for His disciples but for **us today**—for all who would believe in Him. He intercedes for us just as He did for Peter. His love and protection extend to every believer.
         </p>
       </section>
 
