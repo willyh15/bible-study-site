@@ -32,6 +32,21 @@ export default function Lesson1() {
             <strong>Matthew 26:33-35</strong> - Peter declared, “Even if all fall away on account of you, I never will.”  
             Jesus answered, “Truly I tell you, this very night, before the rooster crows, you will disown me three times.”
           </p>
+
+          {/* Sift Like Wheat Image */}
+          <div className="flex justify-center my-6">
+            <Image
+              src="/images/sift-wheat.jpg"
+              alt="Sifting wheat process"
+              width={400}
+              height={300}
+              className="rounded-lg shadow-lg"
+            />
+          </div>
+
+          <p className="text-gray-300 leading-loose mt-4">
+            The process of sifting wheat involves shaking and separating the grain from the chaff. Similarly, Satan desired to test Peter—to shake him and see what remained. But Jesus prayed for his faith to endure.
+          </p>
         </div>
       </section>
 
