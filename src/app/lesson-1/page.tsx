@@ -113,7 +113,7 @@ export default function Lesson1() {
       <section className="snap-item flex flex-col items-center justify-center bg-gray-900 text-white p-10">
         <h2 className="text-3xl font-semibold text-yellow-300 mb-4">Refining Fire in Scripture</h2>
         <p className="text-gray-300 leading-loose">
-          <strong>1 Peter 1:6-7</strong> - In this you greatly rejoice, though now for a little while, if need be, you have been grieved by various trials, that the genuineness of your faith, being much more precious than gold that perishes, though it is tested by fire, may be found to praise, honor, and glory at the revelation of Jesus Christ, whom having not seen you love. Though now you do not see Him, yet believing, you rejoice with joy inexpressible and full of glory, 9 receiving the end of your faith—the salvation of your souls.
+          <strong>1 Peter 1:6-7</strong> - In this you greatly rejoice, though now for a little while, if need be, you have been grieved by various trials, that the genuineness of your faith, being much more precious than gold that perishes, though it is tested by fire, may be found to praise, honor, and glory at the revelation of Jesus Christ, whom having not seen you love. Though now you do not see Him, yet believing, you rejoice with joy inexpressible and full of glory, receiving the end of your faith—the salvation of your souls.
         </p>
         <p className="text-gray-300 leading-loose mt-4">
           <strong>Job 23:10</strong> - But He knows the way that I take;
