@@ -43,7 +43,6 @@ export default function Lesson2() {
           />
 
           <p className="text-gray-300 leading-loose">
-            <strong>1 Thessalonians 5:16-18</strong> - &quot;Pray without ceasing.&quot;<br />
             - A lifestyle of continual communion with God.<br />
             - Is prayer just scheduled moments, or a constant connection?
           </p>
@@ -64,7 +63,6 @@ export default function Lesson2() {
           />
 
           <p className="text-gray-300 leading-loose">
-            <strong>Matthew 17:20</strong> - &quot;If you have faith as small as a mustard seed, you can move mountains.&quot;<br />
             - Faith, even when small, has incredible power.
           </p>
         </div>
@@ -116,7 +114,6 @@ export default function Lesson2() {
           />
 
           <p className="text-gray-300 leading-loose">
-            <strong>John 1:5</strong> - &quot;The light shines in the darkness, and the darkness has not overcome it.&quot;<br />
             - Prayer brings spiritual light into our lives, pushing back the darkness.
           </p>
         </div>
