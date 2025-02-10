@@ -47,7 +47,7 @@ export default function Lesson2() {
             **Luke 6:12** - &quot;One of those days, Jesus went out to a mountainside to pray, and spent the night praying to God.&quot;
           </p>
           <br />
-          **Jesus prioritized prayer.** He sought solitude, prayed before making big decisions, and spent intimate time with the Father.
+          Jesus prioritized prayer. He sought solitude, prayed before making big decisions, and spent intimate time with the Father.
         </div>
       </section>
 
@@ -61,9 +61,9 @@ export default function Lesson2() {
           <p className="text-gray-300 leading-loose mt-4">
             Key Takeaways:
             <ul className="list-disc pl-8 text-gray-300 leading-loose text-left">
-              <li>Jesus prayed **for us**, before we were even born.</li>
-              <li>He prayed for **unity** and protection.</li>
-              <li>Our prayers should seek **God’s glory**, not just our needs.</li>
+              <li>Jesus prayed for us, before we were even born.</li>
+              <li>He prayed for unity and protection.</li>
+              <li>Our prayers should seek God’s glory, not just our needs.</li>
             </ul>
           </p>
         </div>
