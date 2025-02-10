@@ -12,7 +12,7 @@ export default function Lesson2() {
           <h2 className="text-3xl font-semibold text-yellow-300 mb-4 underline">How Often is &quot;Prayer&quot; Mentioned in the Bible?</h2>
 
           <Image 
-            src="/images/pray-continually.jpg" 
+            src="/images/pray-continually.png" 
             alt="Pray Continually - 1 Thessalonians 5:17" 
             width={700} 
             height={400} 
@@ -35,7 +35,7 @@ export default function Lesson2() {
           <h2 className="text-3xl font-semibold text-yellow-300 mb-4 underline">Why is Prayer Necessary?</h2>
 
           <Image 
-            src="/images/prayer-hands.jpg" 
+            src="/images/IMG_1078.jpeg"
             alt="Hands Lifted in Prayer" 
             width={700} 
             height={400} 
