@@ -1,6 +1,8 @@
-// src/app/lesson-2/page.tsx
 import Link from "next/link";
 import FaithBridge from "@/components/FaithBridge";
+import MustardSeedFaith from "@/components/MustardSeedFaith";
+import PrayerIncense from "@/components/PrayerIncense";
+import DarkModePrayer from "@/components/DarkModePrayer";
 
 export default function Lesson2() {
   return (
@@ -41,21 +43,24 @@ export default function Lesson2() {
             <strong>Hebrews 11:6</strong> - Prayer is an act of faith.<br />
             - We approach God believing He hears us.<br />
             - Faith-filled prayer pleases God.
-           </p>
-        {/* Faith as a Bridge Visualization */}
+          </p>
+          
+          {/* Faith as a Bridge Visualization */}
           <FaithBridge />
         </div>
       </section>
 
-      {/* Section 3: Jesus and Prayer */}
+      {/* Section 3: The Growth of Faith */}
       <section className="snap-item flex flex-col items-center justify-center bg-gray-900 text-white p-10">
         <div className="max-w-3xl text-center">
-          <h2 className="text-3xl font-semibold text-yellow-300 mb-4 underline">Jesus&rsquo; Prayer Life</h2>
+          <h2 className="text-3xl font-semibold text-yellow-300 mb-4 underline">The Growth of Faith</h2>
           <p className="text-gray-300 leading-loose">
-            <strong>Mark 1:35</strong> - Jesus prayed early in the morning.<br />
-            - Even in busyness, He prioritized prayer.<br />
-            - How do we make time for prayer in a hectic life?
+            <strong>Matthew 17:20</strong> - &quot;If you have faith as small as a mustard seed, you can move mountains.&quot;<br />
+            - Faith, even when small, has incredible power.
           </p>
+          
+          {/* Mustard Seed Faith Visualization */}
+          <MustardSeedFaith />
         </div>
       </section>
 
@@ -79,10 +84,27 @@ export default function Lesson2() {
             - Our prayers rise to God as a fragrant offering.<br />
             - Are we filling heaven with pleasing prayers?
           </p>
+          
+          {/* Prayer as Incense Visualization */}
+          <PrayerIncense />
         </div>
       </section>
 
-      {/* Section 6: Final Reflection Questions */}
+      {/* Section 6: Light and Darkness in Prayer */}
+      <section className="snap-item flex flex-col items-center justify-center bg-gray-800 text-white p-10">
+        <div className="max-w-3xl text-center">
+          <h2 className="text-3xl font-semibold text-yellow-300 mb-4 underline">The Power of Prayer in Darkness</h2>
+          <p className="text-gray-300 leading-loose">
+            <strong>John 1:5</strong> - &quot;The light shines in the darkness, and the darkness has not overcome it.&quot;<br />
+            - Prayer brings spiritual light into our lives, pushing back the darkness.
+          </p>
+          
+          {/* Dark Mode Prayer Visualization */}
+          <DarkModePrayer />
+        </div>
+      </section>
+
+      {/* Section 7: Final Reflection Questions */}
       <section className="snap-item flex flex-col items-center justify-center bg-gray-800 text-white p-10">
         <div className="max-w-3xl text-center">
           <h2 className="text-3xl font-semibold text-yellow-300 mb-4 underline">Reflection Questions</h2>
