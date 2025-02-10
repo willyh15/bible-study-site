@@ -54,6 +54,15 @@ export default function Lesson2() {
       <section className="snap-item flex flex-col items-center justify-center bg-gray-900 text-white p-10">
         <div className="max-w-3xl text-center">
           <h2 className="text-3xl font-semibold text-yellow-300 mb-4 underline">The Growth of Faith</h2>
+
+          <Image 
+            src="/images/mustard-seed.JPG"
+            alt="Mustard Seed of Faith" 
+            width={700} 
+            height={400} 
+            className="rounded-lg shadow-lg my-6"
+          />
+
           <p className="text-gray-300 leading-loose">
             <strong>Matthew 17:20</strong> - &quot;If you have faith as small as a mustard seed, you can move mountains.&quot;<br />
             - Faith, even when small, has incredible power.
@@ -88,6 +97,15 @@ export default function Lesson2() {
       <section className="snap-item flex flex-col items-center justify-center bg-gray-800 text-white p-10">
         <div className="max-w-3xl text-center">
           <h2 className="text-3xl font-semibold text-yellow-300 mb-4 underline">The Power of Prayer in Darkness</h2>
+
+          <Image 
+            src="/images/light-in-darkness.JPG" 
+            alt="Light Shining in Darkness" 
+            width={700} 
+            height={400} 
+            className="rounded-lg shadow-lg my-6"
+          />
+
           <p className="text-gray-300 leading-loose">
             <strong>John 1:5</strong> - &quot;The light shines in the darkness, and the darkness has not overcome it.&quot;<br />
             - Prayer brings spiritual light into our lives, pushing back the darkness.
