@@ -85,6 +85,15 @@ export default function Lesson2() {
       <section className="snap-item flex flex-col items-center justify-center bg-gray-900 text-white p-10">
         <div className="max-w-3xl text-center">
           <h2 className="text-3xl font-semibold text-yellow-300 mb-4 underline">Deeper Symbolism of Prayer</h2>
+
+          <Image 
+            src="/images/incense-rising.JPG" 
+            alt="Incense Symbolizing Prayer" 
+            width={700} 
+            height={400} 
+            className="rounded-lg shadow-lg my-6"
+          />
+
           <p className="text-gray-300 leading-loose">
             <strong>Prayer as Incense</strong> (Psalm 141:2, Revelation 5:8)<br />
             - Our prayers rise to God as a fragrant offering.<br />
