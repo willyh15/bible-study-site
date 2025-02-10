@@ -9,7 +9,9 @@ export default function MustardSeedFaith() {
   return (
     <div className="flex flex-col items-center justify-center mt-8">
       <h3 className="text-2xl font-semibold text-yellow-400 mb-4">Faith Like a Mustard Seed</h3>
-      <p className="text-gray-300 mb-4">Click "Grow Faith" to see how even a small seed of faith can grow into something great.</p>
+      <p className="text-gray-300 mb-4">
+        Click &quot;Grow Faith&quot; to see how even a small seed of faith can grow into something great.
+      </p>
 
       <div className="relative flex flex-col items-center mb-6">
         <motion.div
@@ -18,7 +20,9 @@ export default function MustardSeedFaith() {
           animate={{ scale: 1 + growth * 0.2 }}
           transition={{ duration: 0.5 }}
         />
-        <p className="text-yellow-300 mt-2">{growth === maxGrowth ? "Faith Fully Grown!" : "Mustard Seed of Faith"}</p>
+        <p className="text-yellow-300 mt-2">
+          {growth === maxGrowth ? "Faith Fully Grown!" : "Mustard Seed of Faith"}
+        </p>
       </div>
 
       <button
