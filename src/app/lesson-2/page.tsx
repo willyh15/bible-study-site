@@ -106,7 +106,7 @@ export default function Lesson2() {
         <div className="max-w-3xl text-center">
           <h2 className="text-3xl font-semibold text-yellow-300 mb-4">Reflection Questions</h2>
           <ul className="list-disc pl-8 text-gray-300 leading-loose text-left">
-            <li>How can ee pray without ceasing in our daily lives?</li>
+            <li>How can we pray without ceasing in our daily lives?</li>
             <li>Which aspect of Jesus’ prayer life challenges you the most?</li>
             <li>Do you struggle with trusting God’s will in prayer?</li>
           </ul>
