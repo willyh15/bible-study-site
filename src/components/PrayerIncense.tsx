@@ -9,7 +9,9 @@ export default function PrayerIncense() {
   return (
     <div className="flex flex-col items-center justify-center mt-8">
       <h3 className="text-2xl font-semibold text-yellow-400 mb-4">Prayers Rising Like Incense</h3>
-      <p className="text-gray-300 mb-4">Click "Pray" to release incense, symbolizing your prayers reaching heaven.</p>
+      <p className="text-gray-300 mb-4">
+        Click &quot;Pray&quot; to release incense, symbolizing your prayers reaching heaven.
+      </p>
 
       <div className="relative w-40 h-60 flex justify-center items-end bg-gray-800 rounded-lg p-4 shadow-lg">
         {Array.from({ length: prayers }, (_, i) => (
