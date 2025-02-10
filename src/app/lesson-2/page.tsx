@@ -1,5 +1,6 @@
 // src/app/lesson-2/page.tsx
 import Link from "next/link";
+import FaithBridge from "@/components/FaithBridge";
 
 export default function Lesson2() {
   return (
@@ -40,7 +41,9 @@ export default function Lesson2() {
             <strong>Hebrews 11:6</strong> - Prayer is an act of faith.<br />
             - We approach God believing He hears us.<br />
             - Faith-filled prayer pleases God.
-          </p>
+           </p>
+        {/* Faith as a Bridge Visualization */}
+          <FaithBridge />
         </div>
       </section>
 
