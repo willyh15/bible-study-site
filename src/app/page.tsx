@@ -11,12 +11,19 @@ export default function Home() {
         </p>
         
         {/* Navigation Links */}
-        <div className="mt-10">
+        <div className="mt-10 space-y-4">
           <Link
             href="/lesson-1"
             className="inline-block bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-lg text-xl font-semibold hover:opacity-90 transition shadow-xl"
           >
             📖 Lesson 1: Jesus&apos; Prayer for Peter
+          </Link>
+          <br />
+          <Link
+            href="/lesson-2"
+            className="inline-block bg-gradient-to-r from-green-500 to-teal-600 text-white px-8 py-4 rounded-lg text-xl font-semibold hover:opacity-90 transition shadow-xl"
+          >
+            🙏 Lesson 2: The Power of Prayer
           </Link>
         </div>
       </div>
