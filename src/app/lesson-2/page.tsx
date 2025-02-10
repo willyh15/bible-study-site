@@ -1,8 +1,4 @@
 import Link from "next/link";
-import FaithBridge from "@/components/FaithBridge";
-import MustardSeedFaith from "@/components/MustardSeedFaith";
-import PrayerIncense from "@/components/PrayerIncense";
-import DarkModePrayer from "@/components/DarkModePrayer";
 
 export default function Lesson2() {
   return (
@@ -44,9 +40,6 @@ export default function Lesson2() {
             - We approach God believing He hears us.<br />
             - Faith-filled prayer pleases God.
           </p>
-          
-          {/* Faith as a Bridge Visualization */}
-          <FaithBridge />
         </div>
       </section>
 
@@ -58,9 +51,6 @@ export default function Lesson2() {
             <strong>Matthew 17:20</strong> - &quot;If you have faith as small as a mustard seed, you can move mountains.&quot;<br />
             - Faith, even when small, has incredible power.
           </p>
-          
-          {/* Mustard Seed Faith Visualization */}
-          <MustardSeedFaith />
         </div>
       </section>
 
@@ -84,9 +74,6 @@ export default function Lesson2() {
             - Our prayers rise to God as a fragrant offering.<br />
             - Are we filling heaven with pleasing prayers?
           </p>
-          
-          {/* Prayer as Incense Visualization */}
-          <PrayerIncense />
         </div>
       </section>
 
@@ -98,9 +85,6 @@ export default function Lesson2() {
             <strong>John 1:5</strong> - &quot;The light shines in the darkness, and the darkness has not overcome it.&quot;<br />
             - Prayer brings spiritual light into our lives, pushing back the darkness.
           </p>
-          
-          {/* Dark Mode Prayer Visualization */}
-          <DarkModePrayer />
         </div>
       </section>
 
