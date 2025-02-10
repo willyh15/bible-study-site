@@ -9,7 +9,9 @@ export default function FaithBridge() {
   return (
     <div className="flex flex-col items-center justify-center mt-8">
       <h3 className="text-xl font-semibold text-yellow-300 mb-4">Faith Builds the Bridge</h3>
-      <p className="text-gray-300 mb-4">Click "Pray" to build the bridge between you and God.</p>
+      <p className="text-gray-300 mb-4">
+        Click &quot;Pray&quot; to build the bridge between you and God.
+      </p>
 
       <div className="flex items-center space-x-2 mb-6">
         <span className="text-yellow-400 text-xl">You</span>
@@ -37,7 +39,12 @@ export default function FaithBridge() {
       </button>
 
       {steps === maxSteps && (
-        <motion.p className="text-green-400 text-lg mt-4" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
+        <motion.p 
+          className="text-green-400 text-lg mt-4"
+          initial={{ opacity: 0 }} 
+          animate={{ opacity: 1 }} 
+          transition={{ duration: 1 }}
+        >
           The bridge is complete! Your faith connects you to God.
         </motion.p>
       )}
