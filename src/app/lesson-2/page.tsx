@@ -35,7 +35,7 @@ export default function Lesson2() {
           <h2 className="text-3xl font-semibold text-yellow-300 mb-4 underline">Why is Prayer Necessary?</h2>
 
           <Image 
-            src="/images/IMG_1078.jpeg"
+            src="/images/prayer-hands.JPG"
             alt="Hands Lifted in Prayer" 
             width={700} 
             height={400} 
