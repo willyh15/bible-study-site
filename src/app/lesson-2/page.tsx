@@ -6,20 +6,24 @@ export default function Lesson2() {
     <div className="snap-container">
       
       {/* Section 1: The Frequency and Importance of Prayer */}
-      <section className="snap-item flex flex-col items-center justify-center bg-gray-900 text-white p-10">
+      <section className="snap-item min-h-screen flex flex-col justify-center items-center bg-gray-900 text-white py-16 px-6">
         <div className="max-w-4xl text-center">
-          <h1 className="text-5xl font-bold mb-4 text-yellow-400">Lesson 2: The Power and Necessity of Prayer</h1>
-          <h2 className="text-3xl font-semibold text-yellow-300 mb-4 underline">How Often is &quot;Prayer&quot; Mentioned in the Bible?</h2>
+          <h1 className="text-5xl font-bold mb-6 text-yellow-400">
+            Lesson 2: The Power and Necessity of Prayer
+          </h1>
+          <h2 className="text-3xl font-semibold text-yellow-300 mb-6 underline">
+            How Often is &quot;Prayer&quot; Mentioned in the Bible?
+          </h2>
 
           <Image 
             src="/images/pray-continually.png" 
             alt="Pray Continually - 1 Thessalonians 5:17" 
             width={700} 
             height={400} 
-            className="rounded-lg shadow-lg my-6"
+            className="w-full max-w-lg object-cover rounded-lg shadow-lg my-6"
           />
 
-          <p className="text-lg text-gray-300 leading-loose mt-4">
+          <p className="text-lg text-gray-300 leading-loose">
             In the King James Version (KJV):<br />
             - &quot;Prayer&quot; and its variations appear 547 times.<br />
             - &quot;Faith&quot; appears 336 times.<br />
@@ -30,16 +34,18 @@ export default function Lesson2() {
       </section>
 
       {/* Section 2: Scriptural Foundation for Prayer */}
-      <section className="snap-item flex flex-col items-center justify-center bg-gray-800 text-white p-10">
+      <section className="snap-item min-h-screen flex flex-col justify-center items-center bg-gray-800 text-white py-16 px-6">
         <div className="max-w-3xl text-center">
-          <h2 className="text-3xl font-semibold text-yellow-300 mb-4 underline">Why is Prayer Necessary?</h2>
+          <h2 className="text-3xl font-semibold text-yellow-300 mb-6 underline">
+            Why is Prayer Necessary?
+          </h2>
 
           <Image 
             src="/images/prayer-hands.JPG"
             alt="Hands Lifted in Prayer" 
             width={700} 
             height={400} 
-            className="rounded-lg shadow-lg my-6"
+            className="w-full max-w-lg object-cover rounded-lg shadow-lg my-6"
           />
 
           <p className="text-gray-300 leading-loose">
@@ -50,16 +56,18 @@ export default function Lesson2() {
       </section>
 
       {/* Section 3: The Growth of Faith */}
-      <section className="snap-item flex flex-col items-center justify-center bg-gray-900 text-white p-10">
+      <section className="snap-item min-h-screen flex flex-col justify-center items-center bg-gray-900 text-white py-16 px-6">
         <div className="max-w-3xl text-center">
-          <h2 className="text-3xl font-semibold text-yellow-300 mb-4 underline">The Growth of Faith</h2>
+          <h2 className="text-3xl font-semibold text-yellow-300 mb-6 underline">
+            The Growth of Faith
+          </h2>
 
           <Image 
             src="/images/mustard-seed.JPG"
             alt="Mustard Seed of Faith" 
             width={700} 
             height={400} 
-            className="rounded-lg shadow-lg my-6"
+            className="w-full max-w-lg object-cover rounded-lg shadow-lg my-6"
           />
 
           <p className="text-gray-300 leading-loose">
@@ -69,9 +77,11 @@ export default function Lesson2() {
       </section>
 
       {/* Section 4: Jesus' Teachings on Prayer */}
-      <section className="snap-item flex flex-col items-center justify-center bg-gray-800 text-white p-10">
+      <section className="snap-item min-h-screen flex flex-col justify-center items-center bg-gray-800 text-white py-16 px-6">
         <div className="max-w-3xl text-center">
-          <h2 className="text-3xl font-semibold text-yellow-300 mb-4 underline">Jesus&apos; Teachings on Prayer</h2>
+          <h2 className="text-3xl font-semibold text-yellow-300 mb-6 underline">
+            Jesus&apos; Teachings on Prayer
+          </h2>
           <p className="text-gray-300 leading-loose">
             <strong>Matthew 6:5-8</strong> - Pray sincerely, not for show.<br />
             - Do we pray from the heart or for appearance?
@@ -80,16 +90,18 @@ export default function Lesson2() {
       </section>
 
       {/* Section 5: Deeper Symbolic Connections */}
-      <section className="snap-item flex flex-col items-center justify-center bg-gray-900 text-white p-10">
+      <section className="snap-item min-h-screen flex flex-col justify-center items-center bg-gray-900 text-white py-16 px-6">
         <div className="max-w-3xl text-center">
-          <h2 className="text-3xl font-semibold text-yellow-300 mb-4 underline">Deeper Symbolism of Prayer</h2>
+          <h2 className="text-3xl font-semibold text-yellow-300 mb-6 underline">
+            Deeper Symbolism of Prayer
+          </h2>
 
           <Image 
             src="/images/incense-rising.JPG" 
             alt="Incense Symbolizing Prayer" 
             width={700} 
             height={400} 
-            className="rounded-lg shadow-lg my-6"
+            className="w-full max-w-lg object-cover rounded-lg shadow-lg my-6"
           />
 
           <p className="text-gray-300 leading-loose">
@@ -101,16 +113,18 @@ export default function Lesson2() {
       </section>
 
       {/* Section 6: Light and Darkness in Prayer */}
-      <section className="snap-item flex flex-col items-center justify-center bg-gray-800 text-white p-10">
+      <section className="snap-item min-h-screen flex flex-col justify-center items-center bg-gray-800 text-white py-16 px-6">
         <div className="max-w-3xl text-center">
-          <h2 className="text-3xl font-semibold text-yellow-300 mb-4 underline">The Power of Prayer in Darkness</h2>
+          <h2 className="text-3xl font-semibold text-yellow-300 mb-6 underline">
+            The Power of Prayer in Darkness
+          </h2>
 
           <Image 
             src="/images/light-in-darkness.JPG" 
             alt="Light Shining in Darkness" 
             width={700} 
             height={400} 
-            className="rounded-lg shadow-lg my-6"
+            className="w-full max-w-lg object-cover rounded-lg shadow-lg my-6"
           />
 
           <p className="text-gray-300 leading-loose">
@@ -120,9 +134,11 @@ export default function Lesson2() {
       </section>
 
       {/* Section 7: Final Reflection Questions */}
-      <section className="snap-item flex flex-col items-center justify-center bg-gray-800 text-white p-10">
+      <section className="snap-item min-h-screen flex flex-col justify-center items-center bg-gray-800 text-white py-16 px-6">
         <div className="max-w-3xl text-center">
-          <h2 className="text-3xl font-semibold text-yellow-300 mb-4 underline">Reflection Questions</h2>
+          <h2 className="text-3xl font-semibold text-yellow-300 mb-6 underline">
+            Reflection Questions
+          </h2>
           <ul className="list-disc pl-8 text-gray-300 leading-loose text-left">
             <li>Are we prioritizing prayer as Jesus did?</li>
             <li>Are we praying sincerely, persistently, and in faith?</li>
@@ -132,7 +148,7 @@ export default function Lesson2() {
       </section>
 
       {/* Navigation */}
-      <div className="mt-8 text-center">
+      <div className="mt-12 text-center">
         <Link href="/" className="text-blue-400 hover:underline text-lg font-semibold">
           ← Back to Home
         </Link>
