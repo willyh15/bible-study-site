@@ -1,6 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
 
+// Import images for Next.js optimization
+import prayImage from "@/public/images/pray-continually.webp";
+import prayerHands from "@/public/images/prayer-hands.webp";
+import mustardSeed from "@/public/images/mustard-seed.webp";
+import incenseRising from "@/public/images/incense-rising.webp";
+import lightDarkness from "@/public/images/light-in-darkness.webp";
+
 export default function Lesson2() {
   return (
     <div className="snap-container">
@@ -15,11 +22,13 @@ export default function Lesson2() {
             How Often is &quot;Prayer&quot; Mentioned in the Bible?
           </h2>
 
+          {/* Optimized Image */}
           <Image 
-            src="/images/pray-continually.png" 
+            src={prayImage}
             alt="Pray Continually - 1 Thessalonians 5:17" 
             width={700} 
             height={400} 
+            priority // Preloads this image for fast display
             className="w-full max-w-lg object-cover rounded-lg shadow-lg my-6"
           />
 
@@ -41,10 +50,11 @@ export default function Lesson2() {
           </h2>
 
           <Image 
-            src="/images/prayer-hands.JPG"
+            src={prayerHands}
             alt="Hands Lifted in Prayer" 
             width={700} 
             height={400} 
+            loading="lazy" // Loads only when needed
             className="w-full max-w-lg object-cover rounded-lg shadow-lg my-6"
           />
 
@@ -63,28 +73,16 @@ export default function Lesson2() {
           </h2>
 
           <Image 
-            src="/images/mustard-seed.JPG"
+            src={mustardSeed}
             alt="Mustard Seed of Faith" 
             width={700} 
             height={400} 
+            loading="lazy"
             className="w-full max-w-lg object-cover rounded-lg shadow-lg my-6"
           />
 
           <p className="text-gray-300 leading-loose">
             - Faith, even when small, has incredible power.
-          </p>
-        </div>
-      </section>
-
-      {/* Section 4: Jesus' Teachings on Prayer */}
-      <section className="snap-item min-h-screen flex flex-col justify-center items-center bg-gray-800 text-white py-16 px-6">
-        <div className="max-w-3xl text-center">
-          <h2 className="text-3xl font-semibold text-yellow-300 mb-6 underline">
-            Jesus&apos; Teachings on Prayer
-          </h2>
-          <p className="text-gray-300 leading-loose">
-            <strong>Matthew 6:5-8</strong> - Pray sincerely, not for show.<br />
-            - Do we pray from the heart or for appearance?
           </p>
         </div>
       </section>
@@ -97,10 +95,11 @@ export default function Lesson2() {
           </h2>
 
           <Image 
-            src="/images/incense-rising.JPG" 
+            src={incenseRising}
             alt="Incense Symbolizing Prayer" 
             width={700} 
             height={400} 
+            loading="lazy"
             className="w-full max-w-lg object-cover rounded-lg shadow-lg my-6"
           />
 
@@ -120,30 +119,17 @@ export default function Lesson2() {
           </h2>
 
           <Image 
-            src="/images/light-in-darkness.JPG" 
+            src={lightDarkness}
             alt="Light Shining in Darkness" 
             width={700} 
             height={400} 
+            loading="lazy"
             className="w-full max-w-lg object-cover rounded-lg shadow-lg my-6"
           />
 
           <p className="text-gray-300 leading-loose">
             - Prayer brings spiritual light into our lives, pushing back the darkness.
           </p>
-        </div>
-      </section>
-
-      {/* Section 7: Final Reflection Questions */}
-      <section className="snap-item min-h-screen flex flex-col justify-center items-center bg-gray-800 text-white py-16 px-6">
-        <div className="max-w-3xl text-center">
-          <h2 className="text-3xl font-semibold text-yellow-300 mb-6 underline">
-            Reflection Questions
-          </h2>
-          <ul className="list-disc pl-8 text-gray-300 leading-loose text-left">
-            <li>Are we prioritizing prayer as Jesus did?</li>
-            <li>Are we praying sincerely, persistently, and in faith?</li>
-            <li>Do we view prayer as a privilege, not just a duty?</li>
-          </ul>
         </div>
       </section>
 
