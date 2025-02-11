@@ -1,13 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 
-// Import images for Next.js optimization
-import prayImage from "@/public/images/pray-continually.webp";
-import prayerHands from "@/public/images/prayer-hands.webp";
-import mustardSeed from "@/public/images/mustard-seed.webp";
-import incenseRising from "@/public/images/incense-rising.webp";
-import lightDarkness from "@/public/images/light-in-darkness.webp";
-
 export default function Lesson2() {
   return (
     <div className="snap-container">
@@ -22,13 +15,15 @@ export default function Lesson2() {
             How Often is &quot;Prayer&quot; Mentioned in the Bible?
           </h2>
 
-          {/* Optimized Image */}
+          {/* ✅ Use a Direct Path Instead of an Import */}
           <Image 
-            src={prayImage}
+            src="/images/pray-continually.webp" 
             alt="Pray Continually - 1 Thessalonians 5:17" 
             width={700} 
             height={400} 
-            priority // Preloads this image for fast display
+            priority
+            placeholder="blur"
+            sizes="(max-width: 768px) 100vw, 700px"
             className="w-full max-w-lg object-cover rounded-lg shadow-lg my-6"
           />
 
@@ -50,11 +45,13 @@ export default function Lesson2() {
           </h2>
 
           <Image 
-            src={prayerHands}
+            src="/images/prayer-hands.webp"
             alt="Hands Lifted in Prayer" 
             width={700} 
             height={400} 
-            loading="lazy" // Loads only when needed
+            loading="lazy"
+            placeholder="blur"
+            sizes="(max-width: 768px) 100vw, 700px"
             className="w-full max-w-lg object-cover rounded-lg shadow-lg my-6"
           />
 
@@ -73,11 +70,13 @@ export default function Lesson2() {
           </h2>
 
           <Image 
-            src={mustardSeed}
+            src="/images/mustard-seed.webp"
             alt="Mustard Seed of Faith" 
             width={700} 
             height={400} 
             loading="lazy"
+            placeholder="blur"
+            sizes="(max-width: 768px) 100vw, 700px"
             className="w-full max-w-lg object-cover rounded-lg shadow-lg my-6"
           />
 
@@ -95,11 +94,13 @@ export default function Lesson2() {
           </h2>
 
           <Image 
-            src={incenseRising}
+            src="/images/incense-rising.webp" 
             alt="Incense Symbolizing Prayer" 
             width={700} 
             height={400} 
             loading="lazy"
+            placeholder="blur"
+            sizes="(max-width: 768px) 100vw, 700px"
             className="w-full max-w-lg object-cover rounded-lg shadow-lg my-6"
           />
 
@@ -119,11 +120,13 @@ export default function Lesson2() {
           </h2>
 
           <Image 
-            src={lightDarkness}
+            src="/images/light-in-darkness.webp" 
             alt="Light Shining in Darkness" 
             width={700} 
             height={400} 
             loading="lazy"
+            placeholder="blur"
+            sizes="(max-width: 768px) 100vw, 700px"
             className="w-full max-w-lg object-cover rounded-lg shadow-lg my-6"
           />
 
