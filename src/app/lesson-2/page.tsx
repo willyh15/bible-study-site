@@ -63,7 +63,41 @@ export default function Lesson2() {
         </div>
       </section>
 
-      {/* Section 3: The Growth of Faith */}
+      {/* Section 3: Boldly Approaching the Throne of Grace */}
+      <section className="snap-item min-h-screen flex flex-col justify-center items-center bg-gray-900 text-white py-16 px-6">
+        <div className="max-w-3xl text-center">
+          <h2 className="text-3xl font-semibold text-yellow-300 mb-6 underline">
+            Boldly Approaching the Throne of Grace
+          </h2>
+
+          {/* Image for visual representation */}
+          <Image
+            src="/images/throne-of-grace.webp"
+            alt="Throne of Grace - Hebrews 4:16"
+            width={700}
+            height={400}
+            loading="lazy"
+            placeholder="blur"
+            sizes="(max-width: 768px) 100vw, 700px"
+            className="w-full max-w-lg object-cover rounded-lg shadow-lg my-6"
+          />
+
+          {/* Hebrews 4:16 (KJV) */}
+          <blockquote className="text-xl italic text-gray-200 border-l-4 border-yellow-400 pl-4">
+            “Let us therefore come boldly unto the throne of grace, that we may obtain mercy, 
+            and find grace to help in time of need.” – Hebrews 4:16 (KJV)
+          </blockquote>
+
+          {/* Explanation */}
+          <p className="text-gray-300 leading-loose mt-6">
+            - **"Come boldly"** – Through Christ, we have **full access** to God’s presence.<br />
+            - **"Throne of grace"** – God's throne is one of **mercy and help**, not condemnation.<br />
+            - **"Find grace to help"** – He provides **strength and forgiveness** in our time of need.
+          </p>
+        </div>
+      </section>
+
+      {/* Section 4: The Growth of Faith */}
       <section className="snap-item min-h-screen flex flex-col justify-center items-center bg-gray-900 text-white py-16 px-6">
         <div className="max-w-3xl text-center">
           <h2 className="text-3xl font-semibold text-yellow-300 mb-6 underline">
@@ -87,7 +121,41 @@ export default function Lesson2() {
         </div>
       </section>
 
-      {/* Section 4: Paul's Plea - Finding Strength in God's Will */}
+      {/* Section 5: The Power of Faith in Prayer */}
+      <section className="snap-item min-h-screen flex flex-col justify-center items-center bg-gray-900 text-white py-16 px-6">
+        <div className="max-w-3xl text-center">
+          <h2 className="text-3xl font-semibold text-yellow-300 mb-6 underline">
+            The Power of Faith in Prayer
+          </h2>
+
+          {/* Image for visual impact */}
+          <Image
+            src="/images/prayer-faith.webp"
+            alt="Faith in Prayer - Mark 11:24"
+            width={700}
+            height={400}
+            loading="lazy"
+            placeholder="blur"
+            sizes="(max-width: 768px) 100vw, 700px"
+            className="w-full max-w-lg object-cover rounded-lg shadow-lg my-6"
+          />
+
+          {/* Mark 11:24 (KJV) */}
+          <blockquote className="text-xl italic text-gray-200 border-l-4 border-yellow-400 pl-4">
+            “Therefore I say unto you, What things soever ye desire, when ye pray, 
+            believe that ye receive them, and ye shall have them.” – Mark 11:24 (KJV)
+          </blockquote>
+
+          {/* Explanation */}
+          <p className="text-gray-300 leading-loose mt-6">
+            - **"What things soever ye desire"** – Our prayers should align with **God’s will** and His purposes.<br />
+            - **"Believe that ye receive them"** – Prayer requires **faith and trust** in God’s ability to provide.<br />
+            - **"And ye shall have them"** – God answers prayers **according to His perfect will** and timing.
+          </p>
+        </div>
+      </section>
+
+      {/* Section 6: Paul's Plea - Finding Strength in God's Will */}
       <section className="snap-item min-h-screen flex flex-col justify-center items-center bg-gray-800 text-white py-16 px-6">
         <div className="max-w-3xl text-center">
           <h2 className="text-3xl font-semibold text-yellow-300 mb-6 underline">
@@ -113,7 +181,7 @@ export default function Lesson2() {
         </div>
       </section>
 
-      {/* Section 5: The Persistent Widow - Keep Praying, Don't Lose Heart */}
+      {/* Section 7: The Persistent Widow - Keep Praying, Don't Lose Heart */}
       <section className="snap-item min-h-screen flex flex-col justify-center items-center bg-gray-900 text-white py-16 px-6">
         <div className="max-w-3xl text-center">
           <h2 className="text-3xl font-semibold text-yellow-300 mb-6 underline">
@@ -139,7 +207,7 @@ export default function Lesson2() {
         </div>
       </section>
 
-      {/* Section 6: Deeper Symbolic Connections */}
+      {/* Section 8: Deeper Symbolic Connections */}
       <section className="snap-item min-h-screen flex flex-col justify-center items-center bg-gray-800 text-white py-16 px-6">
         <div className="max-w-3xl text-center">
           <h2 className="text-3xl font-semibold text-yellow-300 mb-6 underline">
