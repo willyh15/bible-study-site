@@ -160,7 +160,7 @@ export default function Lesson2() {
           {/* Discussion Question */}
           <div className="mt-6 p-4 bg-gray-700 rounded-lg shadow-lg">
             <h3 className="text-xl text-yellow-300 font-semibold">Discussion Question:</h3>
-            <p className="text-gray-300">Why do you think Jesus emphasized persistence in prayer (Luke 18:1-8)?</p>
+            <p className="text-gray-300">Why do we think Jesus emphasized persistence in prayer (Luke 18:1-8)?</p>
           </div>
         </div>
       </section>
