@@ -10,9 +10,6 @@ export default function Lesson2() {
       {/* Section 1: The Frequency and Importance of Prayer */}
       <section className="snap-item min-h-screen flex flex-col justify-center items-center bg-gray-900 text-white py-16 px-6">
         <div className="max-w-4xl text-center">
-          <h1 className="text-5xl font-bold mb-6 text-yellow-400">
-            Lesson 2: The Power and Necessity of Prayer
-          </h1>
           <h2 className="text-3xl font-semibold text-yellow-300 mb-6 underline">
             How Often is "Prayer" Mentioned in the Bible?
           </h2>
