@@ -90,9 +90,9 @@ export default function Lesson2() {
 
           {/* Explanation */}
           <p className="text-gray-300 leading-loose mt-6">
-            - **"Come boldly"** – Through Christ, we have **full access** to God’s presence.<br />
-            - **"Throne of grace"** – God's throne is one of **mercy and help**, not condemnation.<br />
-            - **"Find grace to help"** – He provides **strength and forgiveness** in our time of need.
+            - "Come boldly" – Through Christ, we have full access to God’s presence.<br />
+            - "Throne of grace" – God's throne is one of mercy and help, not condemnation.<br />
+            - "Find grace to help" – He provides strength and forgiveness in our time of need.
           </p>
         </div>
       </section>
@@ -148,9 +148,9 @@ export default function Lesson2() {
 
           {/* Explanation */}
           <p className="text-gray-300 leading-loose mt-6">
-            - **"What things soever ye desire"** – Our prayers should align with **God’s will** and His purposes.<br />
-            - **"Believe that ye receive them"** – Prayer requires **faith and trust** in God’s ability to provide.<br />
-            - **"And ye shall have them"** – God answers prayers **according to His perfect will** and timing.
+            - "What things soever ye desire" – Our prayers should align with God’s will and His purposes.<br />
+            - "Believe that ye receive them" – Prayer requires faith and trust in God’s ability to provide.<br />
+            - "And ye shall have them" – God answers prayers according to His perfect will and timing.
           </p>
         </div>
       </section>
@@ -175,8 +175,8 @@ export default function Lesson2() {
 
           <p className="text-gray-300 leading-loose">
             <strong>2 Corinthians 12:7-10</strong> - "My grace is sufficient for you, for my power is made perfect in weakness."<br />
-            - Paul pleaded for relief, but God’s answer was **grace**, not removal of suffering.<br />
-            - Sometimes, prayer doesn't remove hardship, but strengthens us **through it**.
+            - Paul pleaded for relief, but God’s answer was grace, not removal of suffering.<br />
+            - Sometimes, prayer doesn't remove hardship, but strengthens us **through it.
           </p>
         </div>
       </section>
@@ -201,8 +201,8 @@ export default function Lesson2() {
 
           <p className="text-gray-300 leading-loose">
             <strong>Luke 18:1-8</strong> - "They ought always to pray and not lose heart."<br />
-            - Jesus taught this parable to show the **power of persistent prayer**.<br />
-            - If an **unjust judge** answered the widow because of persistence, **how much more will our loving Father respond?**
+            - Jesus taught this parable to show the power of persistent prayer.<br />
+            - If an unjust judge answered the widow because of persistence, how much more will our loving Father respond?
           </p>
         </div>
       </section>
