@@ -129,13 +129,6 @@ export default function Lesson2() {
             sizes="(max-width: 768px) 100vw, 700px"
             className="w-full max-w-lg object-cover rounded-lg shadow-lg my-6"
           />
-
-          {/* Mark 11:24 (KJV) */}
-          <blockquote className="text-xl italic text-gray-200 border-l-4 border-yellow-400 pl-4">
-            “Therefore I say unto you, What things soever ye desire, when ye pray, 
-            believe that ye receive them, and ye shall have them.” – Mark 11:24 (KJV)
-          </blockquote>
-
           {/* Explanation */}
           <p className="text-gray-300 leading-loose mt-6">
             - "What things soever ye desire" – Our prayers should align with God’s will and His purposes.<br />
