@@ -81,13 +81,6 @@ export default function Lesson2() {
             sizes="(max-width: 768px) 100vw, 700px"
             className="w-full max-w-lg object-cover rounded-lg shadow-lg my-6"
           />
-
-          {/* Hebrews 4:16 (KJV) */}
-          <blockquote className="text-xl italic text-gray-200 border-l-4 border-yellow-400 pl-4">
-            “Let us therefore come boldly unto the throne of grace, that we may obtain mercy, 
-            and find grace to help in time of need.” – Hebrews 4:16 (KJV)
-          </blockquote>
-
           {/* Explanation */}
           <p className="text-gray-300 leading-loose mt-6">
             - "Come boldly" – Through Christ, we have full access to God’s presence.<br />
