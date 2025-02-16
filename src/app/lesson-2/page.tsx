@@ -136,6 +136,38 @@ export default function Lesson2() {
         </div>
       </section>
 
+      {/* Section: Paul's Plea - Finding Strength in God's Will */}
+      <section className="snap-item min-h-screen flex flex-col justify-center items-center bg-gray-800 text-white py-16 px-6">
+        <div className="max-w-3xl text-center">
+          <h2 className="text-3xl font-semibold text-yellow-300 mb-6 underline">
+            Finding Strength in God's Will
+          </h2>
+
+          <Image
+            src="/images/paul-thorn.webp"
+            alt="Paul's Prayer and God's Answer"
+            width={700}
+            height={400}
+            loading="lazy"
+            placeholder="blur"
+            sizes="(max-width: 768px) 100vw, 700px"
+            className="w-full max-w-lg object-cover rounded-lg shadow-lg my-6"
+          />
+
+          <p className="text-gray-300 leading-loose">
+            <strong>2 Corinthians 12:7-10</strong> - "My grace is sufficient for thee: for my strength is made perfect in weakness."<br />
+            - Paul pleaded for relief, but God’s answer was grace, not removal of suffering.<br />
+            - Sometimes, prayer doesn't remove hardship, but strengthens us **through** it.
+          </p>
+
+          {/* Discussion Question */}
+          <div className="mt-6 p-4 bg-gray-700 rounded-lg shadow-lg">
+            <h3 className="text-xl text-yellow-300 font-semibold">Discussion Question:</h3>
+            <p className="text-gray-300">How can Paul's example in 2 Corinthians 12:7-10 help us when our prayers seem to go unanswered?</p>
+          </div>
+        </div>
+      </section>
+
       {/* Section 7: Persistent Prayer */}
       <section className="snap-item min-h-screen flex flex-col justify-center items-center bg-gray-900 text-white py-16 px-6">
         <div className="max-w-3xl text-center">
